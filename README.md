@@ -16,4 +16,5 @@ https://github.com/leonardomso/33-js-concepts
 <h2>자바스크립트 입문서 공부하기 </h2>
 
 * 변수 = 데이터 값을 저장하는 공간
-  <pre><code>{ let currentTemp C= 22; //섭씨온도}<pre><code>
+  <pre><code> let currentTemp C= 22; //섭씨온도
+                    let currentTemp C=; //변수초기값 선언을 안할시에 undefinded;와같다.  <pre><code>
