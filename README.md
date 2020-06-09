@@ -12,7 +12,8 @@ https://ui.toast.com/weekly-pick/ko_20191216/
 
 https://github.com/leonardomso/33-js-concepts
 
->목표 : 자바스크립트의 여러 특성에 대해서 파악하고 정리한다.
+> 목표 자바스크립트의 여러가지 패턴을파악한다.!
+
 
 <hr>
 
@@ -22,5 +23,5 @@ https://github.com/leonardomso/33-js-concepts
 
 <img src= "ninja.jpg">  
 <h2>자바스크립트 닌자서를 공부하면서 자바스크립트 중급으로 진화해보 </h2>
-> 목표: 자바스크립트를 좀더 활용할줄을 안다.
+> 자바스크립트에 좀더친숙해지기
 
