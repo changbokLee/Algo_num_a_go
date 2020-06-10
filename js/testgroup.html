@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <script>
-        (function(){
-            var results;
-            this.assert = function assert(value, desc){
-                var li = document.createElement("li"); //요소추가
-                li.className = value ? "pass" : "fail"
-                li.appendChild(document.createTextNode(desc)); //텍스트추가
-            }
-        });
 
+<body>
+    <style>
+        #results.li.pass {
+            color: green;
+        }
+
+        #results.li.fail {
+            color: red;
+        }
+    </style>
+    <script>
+        //하나의 테스트그룹은 api나 어플리케이션에서 주로 어떤메서드 와 연관된 검증조건들의 집합을나타낸다.
+        (function () {
+            var results;
+            this.assert = function assert(value, desc) {
+                var li = document.createElement("li"); //요소추가
+                li.className = value ? "pass" : "fail" // pass or fail이라는 css클래스를추가할수있다.
+                li.appendChild(document.createTextNode(desc)); //텍스트추가
+                results.appendChild(li);
+                if (!value) {
+                    li.parentNode.parentNode.className = "fail";
+                }
+                return li;
+            };
+            this.test = function test(name, fn) {
+                results = document.getElementById("results");
+                results = assert(true, name).appendChild(
+                    document.createElement("ul"));
+                fn();
+            };
+        })();
+
+        window.onload = function () {
+            test("A test.", function () {
+                assert(true, "First assertion completed");
+                assert(true, "Second assertion completed");
+                assert(true, "Third assertion completed");
+            });
+            test("Another test.", function () {
+
+                assert(true, "First assertion completed");
+                assert(true, "Second assertion completed");
+                assert(true, "Second assertion completed");
+            });
+            test(" Third test.", function () {
+                assert(null, "fail");
+                assert(5, "pass")
+            });
+        }
     </script>
 </body>
+
 </html>
