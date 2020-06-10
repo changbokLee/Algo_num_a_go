@@ -1,7 +1,7 @@
 function isNimble( ){return true;}
 
-assert(typeof window.isNimble === "function", "insNimble() 정의됨.");
-assert(isNimble.name =="isNimble", "isNimble() 정의됨.");
+assert(typeof window.isNimble === "function", "insNimble() 정의됨."); //이름이 지정된함수를 정의한다 .이름은 현재유효범위전체에서 사용할수있고 암묵적으로 window의 프로퍼티의 추가된다.
+assert(isNimble.name =="isNimble", "isNimble() 정의됨."); //첫번째ㅔ테스트는 window객체에서 프로퍼티가 만들어졌늦 ㅣ;를 확읺다 두번째 테스트는 함수의 name 프로퍼티에 값이 기록됬는지 확인한다.
 
 var canFly = function(){return true;}
 assert (typeof window.canFly ==="function", "canFly() 정의됨");
