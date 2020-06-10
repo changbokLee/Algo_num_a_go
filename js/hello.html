@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    window.onloadt = function() {
+        function Ninja(){
+            this.shulk = function() {return this;};
+
+        }
+
+        var ninja1 = new Ninja();
+        var ninja2 = new Ninja();
+        console.assert(ninja1.shulk() === ninja1, "첫번째닌자가 숨어있다.");
+        console.assert(ninja2.shulk() === ninja2, "첫번째닌자가 숨어있다.");
+    }
+        
+    </script>
+</head>
+<body >
+ 
+</body>
+</html>

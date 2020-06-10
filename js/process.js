@@ -1,6 +1,8 @@
-var add = function(a,b){
-    return a+b;
-};
+var assert = require("assert");
+assert.throws (
+    function(){
+        throw new Error("Worng value");
 
-var result = add(10, 10);
-console.log('더하기(10, 10)' ,result);
+    },
+    Error
+);
