@@ -5,12 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
-            "request": "launch",
             "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/js/test3.html"
-        },
-   
+            "webRoot": "${workspaceFolder}"
+        }
+       
+        
+        
+
     ]
 }

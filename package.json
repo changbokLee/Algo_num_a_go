@@ -1,10 +1,11 @@
 {
-  "name": "jpg",
+  "name": "test",
   "version": "1.0.0",
   "description": "> 공부할시에 강의보고 나중에 내가 따로 커스터마이징꼭 해보기! \r <p> 테트리스 만들기해보기</p>\r https://ui.toast.com/weekly-pick/ko_20191216/\r >목표",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node your-script.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   "homepage": "https://github.com/changbokLee/JPG#readme",
   "devDependencies": {
     "mocha": "^7.2.0"
-  }
+  },
+  "dependencies": {}
 }
