@@ -19,9 +19,8 @@ https://github.com/leonardomso/33-js-concepts
 
 <img src= "image.jpg">  
 <h2>자바스크립트 입문서로 흐름파악하기 </h2>
->목표 : 자바스크립트의 전체적인 흐름을파악한다
 
-<img src= "ninja.jpg">  
-<h2>자바스크립트 닌자서를 공부하면서 자바스크립트 중급으로 진화해보 </h2>
-> 자바스크립트에 좀더친숙해지기
+
+<img src= "core.png">  
+<h2> 자바스크립트 핵심에 대해서 좀더 습득한다. </h2>
 
