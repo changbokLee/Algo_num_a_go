@@ -12,3 +12,11 @@ var a  = 'abc'; //변수선언과 데이터할당을 동시에한다.comment
 
 var a =  'abc';
 a =a + 'def';
+//메모리를 효과적으로 관리하기위해서
+
+var a = 'abc';
+a = a + 'def'; //a의값에 abc가 abcdef로바뀌는게아니라 새로운문자열 abcdef로만들어저장합니다.
+
+var b = 5;
+var c = 5;
+b =7;
