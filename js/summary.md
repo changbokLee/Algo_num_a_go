@@ -19,6 +19,8 @@ values.sort(function(value1,value2) {return value2 - value1;});
 * 매서드로 호출한다.
 * 생성자로 호출한다.
 * 함수의 apply()나 call() 메서드를통해 호출한다.
+* 변수는 변할수있는 데이터값이고 식별자는 그걸사용하는 변수명이라고한다.
+*
 <pre><code>
 if (window){
     var x = 213;
