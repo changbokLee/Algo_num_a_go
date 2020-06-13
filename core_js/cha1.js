@@ -103,3 +103,60 @@
 
 // user2.urls.blog = '';
 // console.log(user.urls.blog = user2.urls.blog); //false
+
+
+// var copyObjetDeep = function(target){
+//     var result = {};
+//     if(typeof target === 'object' && target !==null){
+//         for(var prop in target){
+//             result[prop] = copyObjetDeep(target[prop]);
+//         }
+//     }else {
+//             result =target;
+//     }
+//     return result;
+// }
+
+// var copyObjetViaJson = function(target){
+//     return JSON.parse(JSON.stringify(target));
+// };
+
+// var obj = {
+//     a:1,
+//     b:{
+//         c:null,
+//         d:[1,2],
+//         func1:function(){console.log(3);}
+//     },
+//     func2:function() {console.log(4);}
+// };
+
+// var obj2 = copyObjetViaJson(obj);
+
+// obj2.a = 3;
+// obj2.b.c = 4;
+// obj.b.d[1] =3;
+
+// console.log(obj);
+// console.log(obj2);
+
+// var a;
+// console.log(a); //값을 대입하지않는변수에 접근
+// console.log(obj.a);
+
+// console.log(obj.b); //존재하지않는 프로퍼티에 접근
+// console.log(b); //레퍼런스 오류
+
+// var func = function(){};
+// var c = func(); //return값이 없으면 undefined를 반환한것으로 간주.
+// console.log(c); // undefiend
+
+var arr = [];
+arr1.length = 3;
+console.log(arr1);
+
+var arr2 = new Array(3);
+console.log(arr2);
+
+var arr3 = [undefined, undefined ,undefined];
+console.log(arr3);
