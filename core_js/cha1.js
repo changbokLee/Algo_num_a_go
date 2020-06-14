@@ -151,12 +151,12 @@
 // var c = func(); //return값이 없으면 undefined를 반환한것으로 간주.
 // console.log(c); // undefiend
 
-var arr = [];
-arr1.length = 3;
-console.log(arr1);
+// var arr = [];
+// arr1.length = 3; 
+// console.log(arr1);
 
-var arr2 = new Array(3);
-console.log(arr2);
+// var arr2 = new Array(3);
+// console.log(arr2);
 
-var arr3 = [undefined, undefined ,undefined];
-console.log(arr3);
+// var arr3 = [undefined, undefined ,undefined];
+// console.log(arr3);
