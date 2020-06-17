@@ -12,14 +12,15 @@ https://ui.toast.com/weekly-pick/ko_20191216/
 
 https://github.com/leonardomso/33-js-concepts
 
-> 목표 자바스크립트의 여러가지 패턴을파악한다.!
+> 목표 자바스크립트의 여러가지 패턴을파악한다
 
 
 <hr>
 
 <img src= "image.jpg">  
 <h2>자바스크립트 입문서로 흐름파악하기 </h2>
-
+ 
+<hr>
 
 <img src= "core.png">  
 <h2> 자바스크립트 핵심에 대해서 좀더 습득한다. </h2>
